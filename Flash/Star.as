@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip	public class Star extends MovieClip{		public var X:Number		public var Y:Number	}}
