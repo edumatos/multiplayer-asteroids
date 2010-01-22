@@ -1,0 +1,1 @@
+﻿package {	import flash.display.MovieClip	import flash.display.SimpleButton	import flash.events.MouseEvent	public class RespawnBox extends MovieClip{		function RespawnBox(callback:Function){			spawn.addEventListener(MouseEvent.CLICK, function(){				callback();			   			})		}	}}
