@@ -87,12 +87,6 @@ namespace MyGame {
 		// This method is called when a player sends a message into the server code
 		public override void GotMessage(Player player, Message m) {
 
-			Console.WriteLine(m.Type);
-			player.Send("Is FAT!");
-
-			return;
-
-
 			switch(m.Type) {
 				case "time": {
 						player.Send("time", m.GetString(0), getTime());
