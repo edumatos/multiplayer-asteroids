@@ -49,9 +49,9 @@ package playerio{
 		*/
 		public static const NoAvailableServers:PlayerIOError = new PlayerIOError("There are no servers available in the cluster, please try again later (never occurs)",13);
 		/**
-		* PlayerIOError type if the initdata for the room was too large
+		* PlayerIOError type if the room data for the room was over the allowed size limit
 		*/
-		public static const TooMuchInitData:PlayerIOError = new PlayerIOError("The initdata for the room was too large",14);
+		public static const RoomDataTooLarge:PlayerIOError = new PlayerIOError("The room data for the room was over the allowed size limit",14);
 		/**
 		* PlayerIOError type if you are unable to create room because there is already a room with the specified id
 		*/
